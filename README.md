@@ -81,6 +81,7 @@ moi = {
 
 📍 Lorraine, France
 🐙 [github.com/FantoniStephane](https://github.com/FantoniStephane)
+
 💼 [linkedin.com/in/stéphane-fantoni-16568a337](https://www.linkedin.com/in/stéphane-fantoni-16568a337/)
 ---
 
