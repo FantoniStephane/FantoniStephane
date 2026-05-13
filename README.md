@@ -13,7 +13,7 @@
 ```
 2002 ──────► Technicien informatique         (première passion pour le code)
 2010 ──────► Industrie métallurgique         (16 ans de rigueur et de terrain)
-2025 ──────► Reconversion CD2IA             (retour aux sources, pour de vrai)
+2026 ──────► Reconversion CD2IA             (retour aux sources, pour de vrai)
 2026 ──────► Développeur en construction    (ici, maintenant, sur ce profil)
 ```
 
