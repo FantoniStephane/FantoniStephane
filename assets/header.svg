@@ -1,0 +1,55 @@
+<svg width="700" height="120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; }
+    .text {
+      font-family: 'Fira Code', monospace;
+      font-size: 20px;
+      font-weight: 600;
+      fill: #2F80ED;
+      opacity: 0;
+    }
+    .sub {
+      font-family: 'Fira Code', monospace;
+      font-size: 15px;
+      fill: #8b949e;
+      opacity: 0;
+    }
+    .cursor {
+      fill: #2F80ED;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    .t1 { animation: show 1s 0s forwards, hide 1s 3.5s forwards; }
+    .t2 { animation: show 1s 4s forwards, hide 1s 7.5s forwards; }
+    .t3 { animation: show 1s 8s forwards, hide 1s 11.5s forwards; }
+    .t4 { animation: show 1s 12s forwards, hide 1s 15.5s forwards; }
+    .t5 { animation: show 1s 16s forwards, hide 1s 19.5s forwards; }
+    .t6 { animation: show 1s 20s forwards, hide 1s 23.5s forwards; }
+
+    @keyframes show {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes hide {
+      from { opacity: 1; }
+      to   { opacity: 0; }
+    }
+  </style>
+
+  <rect width="700" height="120" rx="10" class="bg"/>
+
+  <!-- Ligne principale -->
+  <text x="350" y="55" text-anchor="middle" class="text t1">Bonjour, je suis Stéphane 👋</text>
+  <text x="350" y="55" text-anchor="middle" class="text t2">16 ans industrie → Dev IA en construction 🚀</text>
+  <text x="350" y="55" text-anchor="middle" class="text t3">Formation CD2IA · Metz Numeric School · Niveau 6</text>
+  <text x="350" y="55" text-anchor="middle" class="sub  t4">Le code, c'est mon nouveau chantier.</text>
+  <text x="350" y="55" text-anchor="middle" class="sub  t5">Chaque ligne écrite est une reconversion réussie.</text>
+  <text x="350" y="55" text-anchor="middle" class="sub  t6">Tard vaut mieux que jamais — surtout en dev.</text>
+
+  <!-- Curseur -->
+  <rect x="345" y="98" width="10" height="3" class="cursor"/>
+</svg>
